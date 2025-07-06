@@ -1,9 +1,7 @@
 # python-面试通关宝典
-秋招、春招的小伙伴，有面Python开发方向的，看这一个repo就够啦😘
-（ps:也欢迎大家贡献面试中遇到的Python相关问题，不断丰富这个repo以帮助到更多的人✿✿ヽ(°▽°)ノ✿）
 
 
-Table of Contents
+目录
 =================
 
    * [python-面试通关宝典](#python-面试通关宝典)
@@ -224,7 +222,8 @@ CPython
 CPython是使用最广的Python解释器。教程的所有代码也都在CPython下执行。
 
 IPython
-IPython是基于CPython之上的一个交互式解释器，也就是说，IPython只是在交互方式上有所增强，但是执行Python代码的功能和CPython是完全一样的。CPython用>>>作为提示符，而IPython用In [序号]:作为提示符。
+IPython是基于CPython之上的一个交互式解释器，也就是说，IPython只是在交互方式上有所增强，但是执行Python代码的功能和CPython是完全一样的。
+CPython用>>>作为提示符，而IPython用In [序号]:作为提示符。
 PyPy
 
 由Python写的解释器，它的执行速度是最快。PyPy采用JIT技术，对Python代码进行动态编译（注意不是解释），
@@ -237,7 +236,8 @@ IronPython
 IronPython和Jython类似，只不过IronPython是运行在.Net平台上的Python解释器，可以直接把Python代码编译成.Net的字节码。
 
 小结：
-　　Python的解释器很多，但使用最广泛的还是CPython。如果要和Java或.Net平台交互，最好的办法不是用Jython或IronPython，而是通过网络调用来交互，确保各程序之间的独立性。
+　　Python的解释器很多，但使用最广泛的还是CPython。如果要和Java或.Net平台交互，最好的办法不是用Jython或IronPython，而是通过网络调用来交互，
+确保各程序之间的独立性。
 ```
 
 #### 4.说说你知道的 Python3 和 Python2 之间的区别？
@@ -334,7 +334,8 @@ import this
 #### 9.了解 docstring 吗？
 
 ```markdown
-Python有一个很奇妙的特性，称为 文档字符串 ，它通常被简称为 docstrings 。DocStrings是一个重要的工具，由于它帮助你的程序文档更加简单易懂，你应该尽量使用它。你甚至可以在程序运行的时候，从函数恢复文档字符串。
+Python有一个很奇妙的特性，称为 文档字符串 ，它通常被简称为 docstrings 。DocStrings是一个重要的工具，
+由于它帮助你的程序文档更加简单易懂，你应该尽量使用它。你甚至可以在程序运行的时候，从函数恢复文档字符串。
 使用魔法方法'__doc__'可以打印docstring的内容
 ```
 
